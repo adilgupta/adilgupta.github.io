@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/seal_icon.png">
+  <link rel="icon" type="image/png" href="images/adil.jpeg">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
               </p>
               <p>I am a final year undergraduate student in Department of Electrical Engineering at <a href="https:iitb.ac.in">IIT Bombay.</a>
               </p>
-              <p>I am interested in Speech Processing, Speech enhancement and generation, Music information processing.
+              <p>My Bachelor’s thesis is supervised by Prof. Preeti Rao, we are working on speech enhancement algorithms to improve the assessment of children's oral reading. I have recently completed an internship at Sony, Japan where I researched on deep learning based speech enhancement methods for real time applications.
               </p>
               <p style="text-align:center">
                 <a href="mailto:jonbarron@gmail.com">Email</a> &nbsp/&nbsp
@@ -42,26 +42,44 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/JonBarron.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/JonBarron_circle.jpg" class="hoverZoomLink"></a>
+              <a href="images/adil.jpeg"><img height = width width = 100% src="images/adil_circle.png" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+              <heading>Research Projects</heading>
               <p>
-                I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, depth, motion, paint, light, colors, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
+                I'm interested in speech and acoustic signal processing, audio and music technology, natural language processing and application of deep learning in these fields. I have mentoined some of the recent projects below, please refer to my CV for a complete list.
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="porlight_stop()" onmouseover="porlight_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/speech.png' height=100% width=100%>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1905.00824">
+                <papertitle>Speech enhancement for improvement in Children's oral reading assessment</papertitle>
+              </a>
+              <br>
+              <a href = "https://www.ee.iitb.ac.in/course/~daplab/">Digital Audio Processing Lab</a>, IIT Bombay(July 2019 - )
+              <br>
+              <a href = "https://www.ee.iitb.ac.in/wiki/faculty/prao" >Professor Preeti Rao </a>
+              <br>
+              Researching on speech enhancement algorithms for improvement in children's oral reading assessment. The enhanced recordings are to be automatically rated for reading fluency by using ASR and prosody detection
+          </tr>
+
 
           <tr>
-            <td style="padding:20px;width:2%;vertical-align:middle">
+            <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='images/sony.jpeg'>
+                <img src='images/sony.jpeg', height = 100%, width = 100%>
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -69,105 +87,37 @@
                 <papertitle>Speech enhancement for real time applications</papertitle>
               </a>
               <br>
+              Sony, Tokyo, Japan (May 2019 - July 2019)
+              <br>
                 <strong>Kohei Asada-san, Kyosuke Matsumoto-san</strong>
-                <p> Researched and developed deep learning based methods for real time speech enhancement in applications having low latency requirement. Also extended the idea for microphone arrays. Exact details have been kept confidential.
+              <br>
+                Researched and developed deep learning based methods for real time speech enhancement in applications having low latency requirement. Also extended the idea to microphone arrays. Exact details have been kept confidential.
             </td>
           </tr>
 
           <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='dpzlearn_image'><img src='images/dpzlearn_after.jpg'></div>
-                <img src='images/dpzlearn_before.jpg'>
+                <img src='images/balbix.jpg', height = 100%, width = 100%>
               </div>
-              <script type="text/javascript">
-                function dpzlearn_start() {
-                  document.getElementById('dpzlearn_image').style.opacity = "1";
-                }
-
-                function dpzlearn_stop() {
-                  document.getElementById('dpzlearn_image').style.opacity = "0";
-                }
-                dpzlearn_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/1904.05822">
                 <papertitle>Confidence estimation of impacts</papertitle>
               </a>
-          </tr>
-
-          <tr onmouseout="porlight_stop()" onmouseover="porlight_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='porlight_image'><img src='images/porlight_after.jpg'></div>
-                <img src='images/porlight_before.jpg'>
-              </div>
-              <script type="text/javascript">
-                function porlight_start() {
-                  document.getElementById('porlight_image').style.opacity = "1";
-                }
-
-                function porlight_stop() {
-                  document.getElementById('porlight_image').style.opacity = "0";
-                }
-                porlight_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/1905.00824">
-                <papertitle>Speech enhancement for improvement in Children's oral reading assessment</papertitle>
-              </a>
-          </tr>
-
-          <tr onmouseout="loss_stop()" onmouseover="loss_start()" bgcolor="#ffffd0">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='loss_image'><img src='images/loss_after.png'></div>
-                <img src='images/loss_before.png'>
-              </div>
-              <script type="text/javascript">
-                function loss_start() {
-                  document.getElementById('loss_image').style.opacity = "1";
-                }
-
-                function loss_stop() {
-                  document.getElementById('loss_image').style.opacity = "0";
-                }
-                loss_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://drive.google.com/open?id=1xpZ0fL9h1y9RfcTyPgVkxUrF3VwdkBvq">
-                <papertitle>A General and Adaptive Robust Loss Function</papertitle>
-              </a>
               <br>
-              <strong>Jonathan T. Barron</strong>
+              Balbix, San Jose, California(May 2018 - July 2018)
               <br>
-              <em>CVPR</em>, 2019 &nbsp <font color="red"><strong>(Oral Presentation, Best Paper Award Finalist)</strong></font>
+              Dr. Pavan Ramkumar, Dr. Vinay Sridhara
               <br>
-              <a href="https://arxiv.org/abs/1701.03077">arxiv</a> /
-              <a href="https://drive.google.com/open?id=1HNveL7xSNh6Ss7sxLK8Mw2L1Fc-rRhL4">supplement</a> /
-              <a href="https://youtu.be/BmNKbnF69eY">video</a> /
-              <a href="https://www.youtube.com/watch?v=4IInDT_S0ow&t=37m22s">talk</a> /
-              <a href="https://drive.google.com/file/d/1GzRYRIfLHvNLT_QwjHoBjHkBbs3Nbf0x/view?usp=sharing">slides</a> /
-              <a href="https://github.com/google-research/google-research/tree/master/robust_loss">tensorflow code</a> /
-              <a href="https://github.com/jonbarron/robust_loss_pytorch">pytorch code</a> /
-              <a href="data/BarronCVPR2019_reviews.txt">reviews</a> /
-              <a href="data/BarronCVPR2019.bib">bibtex</a>
-              <p></p>
-              <p>A single robust loss function is a superset of many other common robust loss functions, and allows training to automatically adapt the robustness of its own loss.</p>
-            </td>
+              Developed and implemented a model to calculate the effective breach impact of devices in a network using fully Bayesian inference with a cutting edge deep learning framework to model confidence.
           </tr>
 
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Miscellaneous</heading>
-              <p>
-                I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, depth, motion, paint, light, colors, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
-              </p>
+              <heading>Miscellaneous Projects</heading>
             </td>
           </tr>
         </tbody></table>
@@ -176,129 +126,69 @@
           <tr onmouseout="font_stop()" onmouseover="font_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='font_image'><img src='images/font_after.png'></div>
-                <img src='images/font_before.png'>
+                <img src='images/DSP.png', height = 100%, width = 100%>
               </div>
-              <script type="text/javascript">
-                function font_start() {
-                  document.getElementById('font_image').style.opacity = "1";
-                }
-
-                function font_stop() {
-                  document.getElementById('font_image').style.opacity = "0";
-                }
-                font_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="TODO">
                 <papertitle>Low Resource Secure Voice Communication System</papertitle>
               </a>
+              <br>
+              <a href = "https://www.ee.iitb.ac.in/wiki/faculty/vmgadre"> Prof. Vikram M. Gadre </a>
+              <br>
+              Designed a speech compression and encryption algorithm for military applications. It was selected among the top 5 projects out of more than 35 participating teams in Texas instruments-Digital Signal Processing seminar.
             </td>
           </tr>
 
           <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='dpzlearn_image'><img src='images/dpzlearn_after.jpg'></div>
-                <img src='images/dpzlearn_before.jpg'>
+                <img src='images/edl.jpg', height = 100%, width = 100%>
               </div>
-              <script type="text/javascript">
-                function dpzlearn_start() {
-                  document.getElementById('dpzlearn_image').style.opacity = "1";
-                }
-
-                function dpzlearn_stop() {
-                  document.getElementById('dpzlearn_image').style.opacity = "0";
-                }
-                dpzlearn_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/1904.05822">
                 <papertitle>High Speed Polymer Optical Fiber Link</papertitle>
               </a>
+              <br>
+              <a href = "https://www.ee.iitb.ac.in/~akumar/"> Prof. Kumar Appaiah</a> and <a href = "https://www.ee.iitb.ac.in/wiki/faculty/jjohn">Prof. Joseph John </a>
+              <br>
+              Designed an end to end communication system using a 100m long polymer optical fiber capable of transmitting data at about 80Mbps and bit error rate less than 10<sup>-9</sup>.
           </tr>
 
           <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='dpzlearn_image'><img src='images/dpzlearn_after.jpg'></div>
-                <img src='images/dpzlearn_before.jpg'>
+                <img src='images/landmark.jpeg', height = 100%, width = 100%>
               </div>
-              <script type="text/javascript">
-                function dpzlearn_start() {
-                  document.getElementById('dpzlearn_image').style.opacity = "1";
-                }
-
-                function dpzlearn_stop() {
-                  document.getElementById('dpzlearn_image').style.opacity = "0";
-                }
-                dpzlearn_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/1904.05822">
                 <papertitle>Google Landmark Recognition Challenge</papertitle>
               </a>
+              <br>
+              <a href = "https://www.cse.iitb.ac.in/~pjyothi/"> Prof. Preethi Jyothi </a>
+              <br>
+              Participated in the google landmark recognition challenge on kaggle. The task was to identify the correct set of landmarks in a given image out of more than 15,000 possible labels.
+
           </tr>
 
           <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='dpzlearn_image'><img src='images/dpzlearn_after.jpg'></div>
-                <img src='images/dpzlearn_before.jpg'>
+                <img src='images/micro.JPG', height = 100%, width = 100%>
               </div>
-              <script type="text/javascript">
-                function dpzlearn_start() {
-                  document.getElementById('dpzlearn_image').style.opacity = "1";
-                }
-
-                function dpzlearn_stop() {
-                  document.getElementById('dpzlearn_image').style.opacity = "0";
-                }
-                dpzlearn_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/1904.05822">
                 <papertitle>Piplined RISC Architecture</papertitle>
               </a>
+              <br>
+              <a href = "https://www.ee.iitb.ac.in/~viren/"> Prof. Virendra Singh </a>
+              <br>
+              Designed a 16 bit, 6 stage piplined RISC processer with 8 registors based on turing complete instruction set architecture and implemented it in VHDL. After optimization through data and control hazard mitigation and result forwarding, it was tested on Cyclone IV FPGA board.
           </tr>
 
-        </tbody></table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Service</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
-            <td width="75%" valign="center">
-              <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-              <br>
-              <br>
-              <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/cs188.jpg" alt="cs188">
-            </td>
-            <td width="75%" valign="center">
-              <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
-              <br>
-              <br>
-              <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-              <br>
-              <br>
-              <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
-            </td>
-          </tr>
         </tbody></table>
 </body>
 
